@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-/* General styles */
+/* Generic styles */
 body {
     min-height: 100vh;
     display: flex;
@@ -23,7 +23,9 @@ h1, h2, h3 {
     letter-spacing: 2px;
     color: #252525
 }
-
+.hidden-heading {
+    display: none;
+}
 
 /* Header */
 header {
